@@ -2,6 +2,9 @@ footer, .buttons, .search-line, .logo-line, header {
   position: fixed;
 }
 
+.logo {
+  width:100%
+}
 * {outline:none}
 
 a {
