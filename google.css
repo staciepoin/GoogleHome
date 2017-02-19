@@ -1,6 +1,8 @@
-footer, .buttons, .search-line, .logo-line {
+footer, .buttons, .search-line, .logo-line, header {
   position: fixed;
 }
+
+* {outline:none}
 
 a {
   color: inherit;
@@ -81,6 +83,10 @@ footer a:hover {
   color: #222;
 }
 
+.buttons input:active {
+  border: 1px solid #4d90fe;
+}
+
 .search-line {
   left: 0;
   width: 100%;
@@ -143,7 +149,6 @@ footer a:hover {
 
 header {
   height: 30px;
-  position: fixed;
   top: 16px;
   left: 0;
   width: 100%;
