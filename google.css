@@ -83,7 +83,7 @@ footer a:hover {
   color: #222;
 }
 
-.buttons input:active {
+.buttons input:active, .buttons input:focus {
   border: 1px solid #4d90fe;
 }
 
