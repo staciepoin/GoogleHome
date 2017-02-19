@@ -140,3 +140,71 @@ footer a:hover {
   margin-left: 547px;
   padding-top: 109px;
 }
+
+header {
+  height: 30px;
+  position: fixed;
+  top: 16px;
+  left: 0;
+  width: 100%;
+  line-height: 30px;
+}
+
+header .wrap {
+  width: 223px;
+  height: 100%;
+  float: right;
+  padding: 0 30px;
+  text-align: right;
+  position: relative;
+}
+
+header .link {
+  float: left;
+  height: 100%;
+  font: 13px Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 30px;
+}
+
+header .link:hover {
+  text-decoration: underline;
+}
+
+.images {
+  margin: 0 15px;
+}
+
+header .waffle {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.55);
+  width: 30px;
+  text-align: center;
+  text-decoration: none!important;
+}
+
+.waffle:hover {
+  color: #000
+}
+
+.login {
+  width: 71px;
+  margin-left: 15px;
+  height: 100%;
+  border: 1px solid #4285f4;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  position: absolute;
+  box-sizing: border-box;
+  right: 30px;
+  font: bold 13px Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.login:hover {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .15);
+}
